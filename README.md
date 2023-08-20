@@ -99,6 +99,8 @@ Making a review of the extracted file or hive (SOFTWARE):
 ![image1.2.b.3](image.1.2.b.3.png) 
 
 
+<h1>[THE REST OF THE QUESTIONS WILL BE MOVED FORM THE PDF FILE I HAVE IN THIS REPOSITORY IN SHORT]</h1>
+  
 <b>c)Name of the owner and list of installed software.</b>
 "Product ID" and "Product Key" associated with the system (0.25 points)
 Date and time of installation of the operating system (0.25 points)
