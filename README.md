@@ -1,4 +1,4 @@
-# Forensic Analytics
+# Forensic Analysis
 
 ## Description:
 In this repository I will describe a real case senario on which I had to apply the knowledge acquired during the semester.
