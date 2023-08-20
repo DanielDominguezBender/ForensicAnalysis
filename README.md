@@ -28,7 +28,6 @@ For a more accurated description, we could say that <i>Computer Forensic Analysi
 ## How does Forensic Analysis works?  
 
 Forensic analysis involves a systematic process of examining data, transactions, and records to uncover evidence of fraud, misconduct, or irregularities. The process typically includes the following steps:  
-
 ![steps](steps.png)
 
 ## Why is it important?  
@@ -65,14 +64,15 @@ We check the integrity of the system by comparing the Hash we get when loading t
 We see that the integrity of the evidence has been maintained since the MD5 HASH values
 match.  
 
-<b>1.2. By studying the forensic image, determine the following information, related to the operating system installed on the computer you are analyzing:  
-a)How big is the partition to scan?</b>  
+<b>1.2. By studying the forensic image, determine the following information, related to the operating system installed on the computer you are analyzing:</b> 
+
+<b>a) How big is the partition to scan?</b>  
 
 The partition has a size of 15728640000 bytes (about 16 Gigabytes).  
 
 ![image1.2.a](image1.2.a.png)  
 
-<b>b)System and version of the operating system installed.</b>  
+<b>b) System and version of the operating system installed.</b>  
 
 The installed System is a Microsoft Windows.  
 The OS version: Windows 7 Starter.  
@@ -98,20 +98,36 @@ Making a review of the extracted file or hive (SOFTWARE):
 
 ![image1.2.b.3](image.1.2.b.3.png) 
 
+<b>c) Name of the owner and list of installed software.</b>  
 
-<h1>[THE REST OF THE QUESTIONS WILL BE MOVED FORM THE PDF FILE I HAVE IN THIS REPOSITORY IN SHORT]</h1>
-  
-<b>c)Name of the owner and list of installed software.</b>
-"Product ID" and "Product Key" associated with the system (0.25 points)
-Date and time of installation of the operating system (0.25 points)
+The owner we get from the analysis done in Autopsy is: Eugeni Garcia. 
+
+![image1.2.c](image.1.2.c.png) 
+
+List of installed software:
+
+![image1.2.c.2](image.1.2.c.2.png) 
+
+<b>d)"Product ID" and "Product Key" associated with the system</b>  
+
+To obtain the Product Key I have loaded the SOFTWARE hive in the tool <i>Windows Registry Recovery</i> (v3.1.0).  
+Product ID content:  
+
+![image1.2.d](image.1.2.d.png)  
+
+Product Key content:  
+
+![image1.2.d.2](image.1.2.d.2.png)  
+
+<!--
+<b>e) Date and time of installation of the operating system</b>
 Determine brand and model (if possible) of the following hardware: CPU, monitor, graphics card, Ethernet and Wireless card (0.5 points)
 1.3. It determines which users the system has defined (without taking into account the users defined by default) and locates the date and time of the last logon of each located user (0.5 points).
 1.4. Perform the following actions, answer the questions and locate the relevant evidence, associating it, if possible, with the user to which it belongs (only those related to the criminal act stated in the statement):
 to. Locate the documents (PDF files, text files, spreadsheets, etc.) that may be related to any allegedly criminal conduct (0.5 points).
 b. Locates the deleted files and determines if any are relevant to the investigated cause (0.5 points).
 c. Locate the relevant compressed files. Have you located any password protected files? Have you been able to access its content? (checks that there is no malicious program) (1 point).
-
-## What tools were used during the analysis
+-->
 
 ## What now?
 
