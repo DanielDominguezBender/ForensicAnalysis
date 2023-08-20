@@ -91,12 +91,12 @@ Logical size: 23330816
 Hash value: 9869804384dc41382ad0805a8e597ded  
 You can also see this information in the image summary:  
 
-![image1.2.b.2](image1.2.b.2.png)  
+![image1.2.b.2](image.1.2.b.2.png)  
   
 Autopsy logs can also be extracted and opened in Registry Explorer.  
 Making a review of the extracted file or hive (SOFTWARE):  
 
-![image1.2.b.3](image1.2.b.3.png)  
+![image1.2.b.3](image.1.2.b.3.png) 
 
 
 <b>c)Name of the owner and list of installed software.</b>
