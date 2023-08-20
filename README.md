@@ -35,13 +35,79 @@ Forensic analysis involves a systematic process of examining data, transactions,
 
 Forensic analysis is often used for providing evidence in court hearings, especially in criminal investigations. It employs wide range of investigative procedures and technologies.
 
-## Scneraio  
+## Scenario  
 
 A university student requires your services as a forensic analyst as a result of a computer intrusion during which, as he explains, important information has disappeared from his computer.
 The student affirms that there was contact with the author of the intrusion. This contact occurred on two different dates:  
 ▪ The first time, the student received, while his computer was running, a message explaining that his computer had been hacked. Next, the student observed that his computer performed unexpected actions and how, among other things, his research paper disappeared from the hard drive. He then received a message requesting a certain amount of money to recover the lost information and asking him to specify the payment method at a later date through a chat. The student decided to ask for help from a friend of his from a computer profession.  
 ▪ On the second day, the aforementioned chat took place, during which the perpetrator specified the method of payment. A computer science friend of the student, was also present. After the chat, once the situation has been assessed, said computer science decides to disconnect the computer from the network and acquire a forensic image of the computer's hard drive. Finally, the student decides not to make the payment and hires your services so that you find out, if possible, what has happened and locate all the information that could lead to the identification of the presumed author of the intrusion.  
-You must carry out a complete analysis of the forensic image (question 1 of the statement) and write an executive report (question 2 of the statement).
+You must carry out a complete analysis of the forensic image (question 1 of the statement) and write an executive report (question 2 of the statement).  
+
+## Tools and web pages used during the analysis  
+
+- [Autopsy - Forensic tool](https://www.autopsy.com/)
+- [John the ripper - Password cracker](https://www.openwall.com/john/)
+- [Windows Registry Recovery](https://www.mitec.cz/wrr.html)
+- [Registry Explorer (v1.6.0.0)](https://ericzimmerman.github.io/#!index.md)
+- [SkypeLogView](https://www.nirsoft.net/utils/skype_log_view.html)
+- [Event Viewer - Windows application](https://www.howtogeek.com/123646/htg-explains-what-the-windows-event-viewer-is-and-how-you-can-use-it/)
+- [virusradar.com](https://www.virusradar.com/)
+
+## These were the questions I had to answer on this practical delivery  
+
+<b>1. Forensic analysis of a computer system.  
+1.1. Check the integrity of the forensic image that you must analyze.</b>  
+
+We check the integrity of the system by comparing the Hash we get when loading the image in Autopsy with the Hash that they have previously provided us.  
+
+![image1.1](image1.1.png)  
+
+We see that the integrity of the evidence has been maintained since the MD5 HASH values
+match.  
+
+<b>1.2. By studying the forensic image, determine the following information, related to the operating system installed on the computer you are analyzing:  
+a)How big is the partition to scan?</b>  
+
+The partition has a size of 15728640000 bytes (about 16 Gigabytes).  
+
+![image1.2.a](image1.2.a.png)  
+
+<b>b)System and version of the operating system installed.</b>  
+
+The installed System is a Microsoft Windows.  
+The OS version: Windows 7 Starter.  
+Path: Windows/System32/config/SOFTWARE  
+Content:  
+
+![image1.2.b](image1.2.b.png)  
+
+MAC time:  
+Modified:2017-09-07 10:41:35 CEST  
+Accessed:2017-09-07 10:41:35 CEST  
+Created:2009-07-14 04:03:40 CEST  
+Changed:2017-09-07 10:41:34 CEST  
+
+Logical size: 23330816  
+Hash value: 9869804384dc41382ad0805a8e597ded  
+You can also see this information in the image summary:  
+
+![image1.2.b.2](image1.2.b.2.png)  
+  
+Autopsy logs can also be extracted and opened in Registry Explorer.  
+Making a review of the extracted file or hive (SOFTWARE):  
+
+![image1.2.b.3](image1.2.b.3.png)  
+
+
+<b>c)Name of the owner and list of installed software.</b>
+"Product ID" and "Product Key" associated with the system (0.25 points)
+Date and time of installation of the operating system (0.25 points)
+Determine brand and model (if possible) of the following hardware: CPU, monitor, graphics card, Ethernet and Wireless card (0.5 points)
+1.3. It determines which users the system has defined (without taking into account the users defined by default) and locates the date and time of the last logon of each located user (0.5 points).
+1.4. Perform the following actions, answer the questions and locate the relevant evidence, associating it, if possible, with the user to which it belongs (only those related to the criminal act stated in the statement):
+to. Locate the documents (PDF files, text files, spreadsheets, etc.) that may be related to any allegedly criminal conduct (0.5 points).
+b. Locates the deleted files and determines if any are relevant to the investigated cause (0.5 points).
+c. Locate the relevant compressed files. Have you located any password protected files? Have you been able to access its content? (checks that there is no malicious program) (1 point).
 
 ## What tools were used during the analysis
 
