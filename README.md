@@ -28,7 +28,7 @@ For a more accurated description, we could say that <i>Computer Forensic Analysi
 ## How does Forensic Analysis works?  
 
 Forensic analysis involves a systematic process of examining data, transactions, and records to uncover evidence of fraud, misconduct, or irregularities. The process typically includes the following steps:  
-![steps](steps.png)
+![steps](imgs/steps.png)
 
 ## Why is it important?  
 
@@ -59,7 +59,7 @@ You must carry out a complete analysis of the forensic image (question 1 of the 
 
 We check the integrity of the system by comparing the Hash we get when loading the image in Autopsy with the Hash that they have previously provided us.  
 
-![image1.1](image1.1.png)  
+![image1.1](imgs/image1.1.png)  
 
 We see that the integrity of the evidence has been maintained since the MD5 HASH values
 match.  
@@ -70,7 +70,7 @@ match.
 
 The partition has a size of 15728640000 bytes (about 16 Gigabytes).  
 
-![image1.2.a](image1.2.a.png)  
+![image1.2.a](imgs/image1.2.a.png)  
 
 <b>b) System and version of the operating system installed.</b>  
 
@@ -79,7 +79,7 @@ The OS version: Windows 7 Starter.
 Path: Windows/System32/config/SOFTWARE  
 Content:  
 
-![image1.2.b](image1.2.b.png)  
+![image1.2.b](imgs/image1.2.b.png)  
 
 MAC time:  
 Modified:2017-09-07 10:41:35 CEST  
@@ -91,33 +91,33 @@ Logical size: 23330816
 Hash value: 9869804384dc41382ad0805a8e597ded  
 You can also see this information in the image summary:  
 
-![image1.2.b.2](image.1.2.b.2.png)  
+![image1.2.b.2](imgs/image.1.2.b.2.png)  
   
 Autopsy logs can also be extracted and opened in Registry Explorer.  
 Making a review of the extracted file or hive (SOFTWARE):  
 
-![image1.2.b.3](image.1.2.b.3.png) 
+![image1.2.b.3](imgs/image.1.2.b.3.png) 
 
 <b>c) Name of the owner and list of installed software.</b>  
 
 The owner we get from the analysis done in Autopsy is: Eugeni Garcia. 
 
-![image1.2.c](image.1.2.c.png) 
+![image1.2.c](imgs/image.1.2.c.png) 
 
 List of installed software:
 
-![image1.2.c.2](image.1.2.c.2.png) 
+![image1.2.c.2](imgs/image.1.2.c.2.png) 
 
 <b>d)"Product ID" and "Product Key" associated with the system</b>  
 
 To obtain the Product Key I have loaded the SOFTWARE hive in the tool <i>Windows Registry Recovery</i> (v3.1.0).  
 Product ID content:  
 
-![image1.2.d](image.1.2.d.png)  
+![image1.2.d](imgs/image.1.2.d.png)  
 
 Product Key content:  
 
-![image1.2.d.2](image.1.2.d.2.png)  
+![image1.2.d.2](imgs/image.1.2.d.2.png)  
 
 <!--
 <b>e) Date and time of installation of the operating system</b>
