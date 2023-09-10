@@ -51,7 +51,7 @@ Obtain information about the data contained in the hard disk, such as the OS, pr
 
 To find the OS of the image I extracted the SOFTWARE hive from Autopsy and loaded it into Windows Registry Recovery tool:  
 
-![report.1](report.1.png)  
+![report.1](imgs/report.1.png)  
 
 # Findings  
 
@@ -59,7 +59,7 @@ According to a previous review of the image I have obtained the following inform
 the name of Eugeni Garcia. The product ID is 55041-946-6744545-85031. As it is a forensic image and not a running system, to obtain a list of the installed programs I can also extract this information from the hive previously mentioned.  
 Clicking on the <i>Installed Software</i> label I see the following list:  
 
-![report.2](report.2.png)  
+![report.2](imgs/report.2.png)  
 
 # Information about the physical disk drive of the obtained image  
 
@@ -68,11 +68,11 @@ Clicking on the <i>Installed Software</i> label I see the following list:
 As it is a forensic image and without having much prior information on the physical hard drive, I proceeds to obtain as much information as possible.  
 Using the Autopsy tool I wasable to see that it is a unit with a size of almost 16Gb.  
 
-![report.3](report.3.png)  
+![report.3](imgs/report.3.png)  
 
 I found information about the identifier in Windows Registry Recovery by loading the hive from <b>SYSTEM</b> previously extracted with Autopsy:  
 
-![report.4](report.4.png)  
+![report.4](imgs/report.4.png)  
 
 It is a hard drive model WDC WD3200BPVT/22jj5T0 ATA Device with a capacity of 320Gb.
 
@@ -93,6 +93,6 @@ The ZIP contains a malicious file, a backdoor-type Trojan, which must have allow
 
 Among many things that the Trojan can do, the most relevant ones are detailed below:  
 
-![report.6](report.6.png)  
+![report.6](imgs/report.6.png)  
 
 The attacker was able to delete or modify files, run programs, send emails massively or install more malicious tools. In this case, he proceeded to delete Final Project Degree of the victim.
