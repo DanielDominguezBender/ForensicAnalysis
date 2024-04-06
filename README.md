@@ -27,7 +27,7 @@ For a more accurated description, we could say that <i>Computer Forensic Analysi
 
 ## How does Forensic Analysis works?  
 
-Forensic analysis involves a systematic process of examining data, transactions, and records to uncover evidence of fraud, misconduct, or irregularities. The process typically includes the following steps:  
+Forensic analysis involves a systematic process of examining data, transactions and records to uncover evidence of fraud, misconduct, or irregularities. The process typically includes the following steps:  
 ![steps](imgs/steps.png)
 
 ## Why is it important?  
