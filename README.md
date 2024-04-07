@@ -135,7 +135,7 @@ Hash value: `9869804384dc41382ad0805a8e597ded`
 
 The operating system was installed on `2017-08-30 19:38:51 CEST`.
 
-![image1.2.e](imgs/image.1.2.e.png)
+![image1.2.e](imgs/image1.2.e.png)
 
 Path: `Windows/System32/config/SOFTWARE`
 
