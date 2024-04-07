@@ -127,8 +127,8 @@ to. Locate the documents (PDF files, text files, spreadsheets, etc.) that may be
 b. Locates the deleted files and determines if any are relevant to the investigated cause (0.5 points).
 c. Locate the relevant compressed files. Have you located any password protected files? Have you been able to access its content? (checks that there is no malicious program) (1 point).
 
-[!NOTE]
-<b> WILL BE COMPLETED SOON <b>
+>[!NOTE]
+><b> WILL BE COMPLETED SOON <b>
 
 <!--
 ## What now?
