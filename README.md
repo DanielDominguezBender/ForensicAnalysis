@@ -119,7 +119,38 @@ Product Key content:
 
 ![image1.2.d.2](imgs/image.1.2.d.2.png)  
 
+Path: `Windows/System32/config/SOFTWARE`
+
+MAC time:
+```
+Modified:2017-09-07 10:41:35 CEST
+Accessed: 2017-09-07 10:41:35 CEST
+Created:2009-07-14 04:03:40 CEST
+Changed:2017-09-07 10:41:34 CEST
+```
+Logical size: `23330816`
+Hash value: `9869804384dc41382ad0805a8e597ded`
+
 <b>e) Date and time of installation of the operating system</b>
+
+The operating system was installed on `2017-08-30 19:38:51 CEST`.
+
+![image1.2.e](imgs/image.1.2.e.png)
+
+Path: `Windows/System32/config/SOFTWARE`
+
+MAC time:
+```
+Modified:2017-09-07 10:41:35 CEST
+Accessed:2017-09-07 10:41:35 CEST
+Created:2009-07-14 04:03:40 CEST
+Changed:2017-09-07 10:41:34 CEST
+```
+Logical size: `23330816`
+Hash value: `9869804384dc41382ad0805a8e597ded`
+
+
+
 Determine brand and model (if possible) of the following hardware: CPU, monitor, graphics card, Ethernet and Wireless card (0.5 points)
 1.3. It determines which users the system has defined (without taking into account the users defined by default) and locates the date and time of the last logon of each located user (0.5 points).
 1.4. Perform the following actions, answer the questions and locate the relevant evidence, associating it, if possible, with the user to which it belongs (only those related to the criminal act stated in the statement):
