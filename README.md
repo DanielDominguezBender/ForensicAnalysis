@@ -1,10 +1,10 @@
 # Forensic Analysis
 
-## Description:
+## Description
 In this repository I will describe a real case senario on which I had to apply the knowledge acquired during the semester.
 Some of the following descriptions were taking from the study modules I got for this subjetc and some other information was taken from the internet.
 
-## Before explaining what F.A., let's talk about Forensic Science:
+## Before explaining what F.A. is, let's talk about Forensic Science
 
 Known as forensic science is what has as its object the application of scientific practices within the legal process. Forensic science is usually referred to just with term <i>forensics</i>. The
 Forensic Science encompasses both the civil and criminal branches of law.  
@@ -119,7 +119,6 @@ Product Key content:
 
 ![image1.2.d.2](imgs/image.1.2.d.2.png)  
 
-<!--
 <b>e) Date and time of installation of the operating system</b>
 Determine brand and model (if possible) of the following hardware: CPU, monitor, graphics card, Ethernet and Wireless card (0.5 points)
 1.3. It determines which users the system has defined (without taking into account the users defined by default) and locates the date and time of the last logon of each located user (0.5 points).
@@ -127,8 +126,10 @@ Determine brand and model (if possible) of the following hardware: CPU, monitor,
 to. Locate the documents (PDF files, text files, spreadsheets, etc.) that may be related to any allegedly criminal conduct (0.5 points).
 b. Locates the deleted files and determines if any are relevant to the investigated cause (0.5 points).
 c. Locate the relevant compressed files. Have you located any password protected files? Have you been able to access its content? (checks that there is no malicious program) (1 point).
--->
 
+
+<!--
 ## What now?
 
 The idea is to improve this script to make it a bit more sofisticated something like sending out an email when a file integrity violation is detected.
+-->
